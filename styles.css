@@ -367,6 +367,38 @@ body {
     opacity: 0.7;
 }
 
+/* DLI Section */
+.dli-section {
+    padding: 40px 24px;
+    text-align: center;
+    background: #f8f8f8;
+    border-top: 1px solid #e5e7eb;
+}
+
+.dli-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1d1d1f;
+    margin-bottom: 12px;
+}
+
+.dli-link {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #76b900;
+    text-decoration: none;
+    padding: 10px 24px;
+    border: 2px solid #76b900;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.dli-link:hover {
+    background: #76b900;
+    color: #ffffff;
+}
+
 /* Footer */
 .footer {
     padding: 40px 24px;
