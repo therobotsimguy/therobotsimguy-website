@@ -44,8 +44,8 @@ body {
     font-size: 18px;
     color: #000000;
     text-decoration: none;
-    border-bottom: 1px solid #000000;
-    padding-bottom: 2px;
+    border-bottom: 2px dashed #22c55e;
+    padding-bottom: 4px;
 }
 
 .nav-links {
@@ -154,28 +154,26 @@ body {
     height: 100%;
 }
 
-/* Loop Cards - Solid Blue Border Style */
+/* Loop Cards - Red Dashed Border Style */
 .loop-card {
     background: #ffffff;
-    border: 2px solid #e5e7eb;
-    border-radius: 16px;
+    border: 2px dashed #ef4444;
+    border-radius: 0;
     padding: 28px;
     width: 380px;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .loop-card:hover {
     background: #fafafa;
-    border-color: #d1d5db;
 }
 
 .loop-card.expanded {
     border-color: #3b82f6;
+    border-style: dashed;
     background: #ffffff;
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
 }
 
 .loop-number {
@@ -210,7 +208,7 @@ body {
     display: none;
     margin-top: 20px;
     padding-top: 20px;
-    border-top: 1px solid #e5e7eb;
+    border-top: 1px dashed #e5e7eb;
 }
 
 .loop-card.expanded .loop-expanded {
@@ -233,9 +231,9 @@ body {
 }
 
 .stage {
-    background: #f8f8f8;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
+    background: #ffffff;
+    border: 2px dashed #ef4444;
+    border-radius: 0;
     padding: 14px;
     text-align: center;
     cursor: pointer;
@@ -245,7 +243,7 @@ body {
 
 .stage:hover {
     border-color: #000000;
-    background: #f0f0f0;
+    background: #f8f8f8;
 }
 
 .stage-num {
@@ -293,7 +291,7 @@ body {
 }
 
 .feedback-arrow {
-    color: #3b82f6;
+    color: #6b7280;
     font-size: 16px;
 }
 
