@@ -108,60 +108,12 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 0;
+    gap: 24px;
+    margin-bottom: 24px;
 }
 
-.roadmap-row.row-reverse {
-    flex-direction: row-reverse;
-}
-
-/* Horizontal Arrow - Stays vertically centered between cards */
-.roadmap-arrow {
-    width: 60px;
-    height: auto;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-}
-
-.roadmap-arrow svg {
-    width: 100%;
-    height: 50px;
-}
-
-/* Curved Connectors */
-.roadmap-connector {
-    width: 200px;
-    height: 60px;
-    margin: 0 auto;
-}
-
-.connector-down-left {
-    margin-right: 0;
-    margin-left: auto;
-    padding-right: 80px;
-}
-
-.connector-down-right {
-    margin-left: 0;
-    margin-right: auto;
-    padding-left: 80px;
-}
-
-.roadmap-connector svg {
-    width: 100%;
-    height: 100%;
-}
-
-/* Arrow SVG styling - black dashed stroke */
-.roadmap-arrow svg path,
-.roadmap-connector svg path {
-    stroke: #000000;
-    stroke-width: 2px;
-    stroke-dasharray: 6, 4;
-    fill: none;
+.roadmap-row:last-child {
+    margin-bottom: 0;
 }
 
 /* Loop Cards - New Solid Border Style with Rounded Corners */
