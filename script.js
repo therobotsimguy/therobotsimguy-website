@@ -117,13 +117,13 @@
                 number: '2',
                 title: 'Training',
                 subtitle: 'Train policies in simulation',
-                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>Isaac Lab</h4><p>Modular framework for robot learning. Supports RL, IL, and hybrid approaches.</p><a href="https://isaac-sim.github.io/IsaacLab/" target="_blank" class="source-link">→ Documentation</a></div><div class="modal-tool"><h4>Newton Physics Engine</h4><p>GPU-accelerated physics with Google DeepMind & Disney Research.</p><a href="https://developer.nvidia.com/blog/advancing-robot-learning-with-nvidia-newton-physics-engine/" target="_blank" class="source-link">→ NVIDIA Blog</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• RL vs IL vs hybrid approach?<br>• How many parallel environments needed?<br>• What\'s your compute budget?</p></div>'
+                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>Isaac Lab</h4><p>Modular framework for robot learning. Supports RL, IL, and hybrid approaches.</p><a href="https://isaac-sim.github.io/IsaacLab/" target="_blank" class="source-link">→ Documentation</a></div><div class="modal-tool"><h4>Newton Physics Engine</h4><p>GPU-accelerated physics with Google DeepMind & Disney Research.</p><a href="https://github.com/newton-physics/newton" target="_blank" class="source-link">→ GitHub</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• RL vs IL vs hybrid approach?<br>• How many parallel environments needed?<br>• What\'s your compute budget?</p></div>'
             },
             'sim-eval': {
                 number: '3',
                 title: 'Evaluation',
                 subtitle: 'Benchmark your policies',
-                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>Isaac Lab-Arena</h4><p>Generalist robot policy evaluation at scale. Standardized benchmarks for comparison.</p><a href="https://github.com/isaac-sim/IsaacLabArena" target="_blank" class="source-link">→ GitHub</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• What metrics matter for your use case?<br>• How do you compare against baselines?<br>• When is "good enough" for real-world testing?</p></div>'
+                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>Isaac Lab-Arena</h4><p>Generalist robot policy evaluation at scale. Standardized benchmarks for comparison.</p><a href="https://github.com/isaac-sim/IsaacLab-Arena" target="_blank" class="source-link">→ GitHub</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• What metrics matter for your use case?<br>• How do you compare against baselines?<br>• When is "good enough" for real-world testing?</p></div>'
             },
             
             // Data Loop
@@ -131,13 +131,13 @@
                 number: '1',
                 title: 'Data Collection',
                 subtitle: 'Gather training data',
-                content: '<div class="modal-section"><p class="modal-section-title">Collection Paradigms</p><div class="modal-tool"><h4>Hand/Arm Manipulation</h4><p>Glasses/VR + UMI Device or Gloves. Fast collection at human speed.</p></div><div class="modal-tool"><h4>Whole-Body MoCap</h4><p>MoCap Suit + Gloves/Gripper. For humanoid data collection.</p></div><div class="modal-tool"><h4>Robot Teleoperation</h4><p>Direct robot control. Slow but no retargeting needed.</p></div></div><div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>GR00T-Mimic</h4><p>Retarget human motion to robot embodiment.</p><a href="https://developer.nvidia.com/isaac/groot" target="_blank" class="source-link">→ GR00T Documentation</a></div></div>'
+                content: '<div class="modal-section"><p class="modal-section-title">Collection Paradigms</p><div class="modal-tool"><h4>Hand/Arm Manipulation</h4><p>Glasses/VR + UMI Device or Gloves. Fast collection at human speed.</p></div><div class="modal-tool"><h4>Whole-Body MoCap</h4><p>MoCap Suit + Gloves/Gripper. For humanoid data collection.</p></div><div class="modal-tool"><h4>Robot Teleoperation</h4><p>Direct robot control. Slow but no retargeting needed.</p></div></div><div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>GR00T-Mimic</h4><p>Retarget human motion to robot embodiment.</p><a href="https://research.nvidia.com/labs/gear/gr00t-n1_6/" target="_blank" class="source-link">→ GR00T N1.6 Research</a></div></div>'
             },
             'data-augment': {
                 number: '2',
                 title: 'Data Augmentation',
                 subtitle: 'Expand and enhance your dataset',
-                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>Cosmos Transfer 2.5</h4><p>Transform 3D/spatial inputs from simulators into high-fidelity video for domain transfer.</p><a href="https://www.nvidia.com/en-us/ai/cosmos/" target="_blank" class="source-link">→ Cosmos Platform</a></div><div class="modal-tool"><h4>NuRec</h4><p>Neural reconstruction for robotic space interaction.</p><a href="https://developer.nvidia.com/omniverse" target="_blank" class="source-link">→ Omniverse</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• How much real data do you have?<br>• What variations do you need?<br>• Domain randomization vs. domain transfer?</p></div>'
+                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>Cosmos Transfer 2.5</h4><p>Transform 3D/spatial inputs from simulators into high-fidelity video for domain transfer.</p><a href="https://www.nvidia.com/en-us/ai/cosmos/" target="_blank" class="source-link">→ Cosmos Platform</a></div><div class="modal-tool"><h4>NuRec</h4><p>Neural reconstruction for robotic space interaction.</p><a href="https://docs.nvidia.com/nurec/index.html#" target="_blank" class="source-link">→ NuRec Documentation</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• How much real data do you have?<br>• What variations do you need?<br>• Domain randomization vs. domain transfer?</p></div>'
             },
             
             // VLA Training Loop
@@ -145,7 +145,7 @@
                 number: '1',
                 title: 'Pretraining',
                 subtitle: 'Build foundation VLA models',
-                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>NeMo Framework</h4><p>End-to-end platform for building, customizing, and deploying generative AI models.</p><a href="https://www.nvidia.com/en-us/ai-data-science/products/nemo/" target="_blank" class="source-link">→ NeMo Platform</a></div><div class="modal-tool"><h4>GR00T N1.6</h4><p>Foundation model for humanoid robots. Cross-embodiment generalization.</p><a href="https://developer.nvidia.com/isaac/groot" target="_blank" class="source-link">→ GR00T Documentation</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• Train from scratch or fine-tune existing?<br>• What compute resources available?<br>• Target embodiment(s)?</p></div>'
+                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>NeMo Framework</h4><p>End-to-end platform for building, customizing, and deploying generative AI models.</p><a href="https://www.nvidia.com/en-us/ai-data-science/products/nemo/" target="_blank" class="source-link">→ NeMo Platform</a></div><div class="modal-tool"><h4>GR00T N1.6</h4><p>Foundation model for humanoid robots. Cross-embodiment generalization.</p><a href="https://research.nvidia.com/labs/gear/gr00t-n1_6/" target="_blank" class="source-link">→ GR00T N1.6 Research</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• Train from scratch or fine-tune existing?<br>• What compute resources available?<br>• Target embodiment(s)?</p></div>'
             },
             'vla-finetune': {
                 number: '2',
@@ -157,7 +157,7 @@
                 number: '3',
                 title: 'Deployment',
                 subtitle: 'Deploy VLA to production',
-                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>NIM Microservices</h4><p>Containerized AI inference microservices. Deploy anywhere with optimized performance.</p><a href="https://www.nvidia.com/en-us/ai/" target="_blank" class="source-link">→ NVIDIA AI</a></div><div class="modal-tool"><h4>TensorRT</h4><p>High-performance deep learning inference optimizer and runtime.</p><a href="https://developer.nvidia.com/tensorrt" target="_blank" class="source-link">→ TensorRT</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• Cloud vs edge deployment?<br>• Latency requirements?<br>• Scaling strategy?</p></div>'
+                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>NIM Microservices</h4><p>Containerized AI inference microservices. Deploy anywhere with optimized performance.</p><a href="https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html" target="_blank" class="source-link">→ NIM Documentation</a></div><div class="modal-tool"><h4>TensorRT</h4><p>High-performance deep learning inference optimizer and runtime.</p><a href="https://developer.nvidia.com/tensorrt" target="_blank" class="source-link">→ TensorRT</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• Cloud vs edge deployment?<br>• Latency requirements?<br>• Scaling strategy?</p></div>'
             },
             
             // World Model Training Loop
@@ -191,7 +191,7 @@
                 number: '1',
                 title: 'Simulation Training',
                 subtitle: 'Train with high-fidelity physics',
-                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>Newton Physics Engine</h4><p>GPU-accelerated physics simulation. Developed with Google DeepMind and Disney Research.</p><a href="https://developer.nvidia.com/blog/advancing-robot-learning-with-nvidia-newton-physics-engine/" target="_blank" class="source-link">→ NVIDIA Blog</a></div><div class="modal-tool"><h4>Isaac Lab</h4><p>Robot learning framework with domain randomization support.</p><a href="https://isaac-sim.github.io/IsaacLab/" target="_blank" class="source-link">→ Documentation</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• What physics fidelity is needed?<br>• Domain randomization strategy?<br>• Compute requirements?</p></div>'
+                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>Newton Physics Engine</h4><p>GPU-accelerated physics simulation. Developed with Google DeepMind and Disney Research.</p><a href="https://github.com/newton-physics/newton" target="_blank" class="source-link">→ GitHub</a></div><div class="modal-tool"><h4>Isaac Lab</h4><p>Robot learning framework with domain randomization support.</p><a href="https://isaac-sim.github.io/IsaacLab/" target="_blank" class="source-link">→ Documentation</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• What physics fidelity is needed?<br>• Domain randomization strategy?<br>• Compute requirements?</p></div>'
             },
             's2r-real': {
                 number: '2',
@@ -217,7 +217,7 @@
                 number: '2',
                 title: 'Monitoring',
                 subtitle: 'Track fleet performance',
-                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>OSMO</h4><p>Orchestration platform for distributed robot fleets. Manage training and deployment at scale.</p><a href="https://developer.nvidia.com/isaac" target="_blank" class="source-link">→ Isaac Platform</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• What KPIs to track?<br>• Alerting thresholds?<br>• Data collection for improvement?</p></div>'
+                content: '<div class="modal-section"><p class="modal-section-title">NVIDIA Tools</p><div class="modal-tool"><h4>OSMO</h4><p>Orchestration platform for distributed robot fleets. Manage training and deployment at scale.</p><a href="https://developer.nvidia.com/osmo" target="_blank" class="source-link">→ OSMO</a></div></div><div class="modal-section"><p class="modal-section-title">PM Decision Points</p><p>• What KPIs to track?<br>• Alerting thresholds?<br>• Data collection for improvement?</p></div>'
             },
             'deploy-improve': {
                 number: '3',
