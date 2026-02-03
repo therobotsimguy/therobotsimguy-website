@@ -115,7 +115,7 @@ body {
     flex-direction: row-reverse;
 }
 
-/* Horizontal Arrow */
+/* Horizontal Arrow - Stays vertically centered between cards */
 .roadmap-arrow {
     width: 60px;
     height: auto;
@@ -123,8 +123,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    align-self: center;
-    min-height: 120px;
+    align-self: stretch;
 }
 
 .roadmap-arrow svg {
@@ -154,6 +153,15 @@ body {
 .roadmap-connector svg {
     width: 100%;
     height: 100%;
+}
+
+/* Arrow SVG styling - black dashed stroke */
+.roadmap-arrow svg path,
+.roadmap-connector svg path {
+    stroke: #000000;
+    stroke-width: 2px;
+    stroke-dasharray: 6, 4;
+    fill: none;
 }
 
 /* Loop Cards - New Solid Border Style with Rounded Corners */
