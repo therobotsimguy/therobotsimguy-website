@@ -156,30 +156,33 @@ body {
     height: 100%;
 }
 
-/* Loop Cards - Red Dashed Border Style */
+/* Loop Cards - New Solid Border Style with Rounded Corners */
 .loop-card {
     background: #ffffff;
-    border: 2px dashed #ef4444;
-    border-radius: 0;
+    border: 2px solid #e5e7eb;
+    border-radius: 16px;
     padding: 28px;
     width: 380px;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
+/* Hover State */
 .loop-card:hover {
     background: #fafafa;
+    border-color: #d1d5db;
 }
 
-/* Expanded Card - Blue border with subtle shadow */
+/* Expanded State - Blue border with blue-tinted shadow */
 .loop-card.expanded {
     border-color: #3b82f6;
-    border-style: dashed;
     background: #ffffff;
     box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
 }
 
+/* Loop Number Badge */
 .loop-number {
     width: 36px;
     height: 36px;
@@ -194,6 +197,7 @@ body {
     margin-bottom: 14px;
 }
 
+/* Card Title */
 .loop-card h3 {
     font-size: 17px;
     font-weight: 600;
@@ -201,6 +205,7 @@ body {
     color: #000000;
 }
 
+/* Card Description */
 .loop-card > p {
     font-size: 14px;
     color: #666666;
@@ -212,7 +217,7 @@ body {
     display: none;
     margin-top: 20px;
     padding-top: 20px;
-    border-top: 1px dashed #e5e7eb;
+    border-top: 1px solid #e5e7eb;
 }
 
 /* Show expanded content when parent has .expanded class */
@@ -235,20 +240,22 @@ body {
     gap: 10px;
 }
 
+/* Stage Cards - Matching style with rounded corners */
 .stage {
     background: #ffffff;
-    border: 2px dashed #ef4444;
-    border-radius: 0;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
     padding: 14px;
     text-align: center;
     cursor: pointer;
     transition: all 0.2s;
     min-width: 85px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .stage:hover {
-    border-color: #000000;
-    background: #f8f8f8;
+    border-color: #3b82f6;
+    background: #f8fafc;
 }
 
 .stage-num {
